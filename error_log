@@ -1,0 +1,162 @@
+[07-Apr-2016 23:20:54] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 89
+[07-Apr-2016 23:20:58] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 89
+[07-Apr-2016 23:21:07] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[07-Apr-2016 23:21:23] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-payment-list-view.php on line 91
+[07-Apr-2016 23:23:23] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 89
+[07-Apr-2016 23:53:54] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 89
+[07-Apr-2016 23:57:52] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 89
+[07-Apr-2016 23:57:55] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 89
+[07-Apr-2016 23:58:44] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 89
+[07-Apr-2016 23:58:45] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-payment-list-view.php on line 91
+[08-Apr-2016 00:01:53] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 89
+[08-Apr-2016 00:08:07] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 91
+[08-Apr-2016 00:09:34] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 91
+[08-Apr-2016 00:10:21] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 91
+[08-Apr-2016 00:11:40] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 91
+[08-Apr-2016 00:11:56] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 91
+[08-Apr-2016 00:11:58] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 91
+[08-Apr-2016 00:12:42] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 91
+[08-Apr-2016 00:14:21] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 91
+[08-Apr-2016 00:21:08] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 69
+[08-Apr-2016 00:22:17] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 69
+[08-Apr-2016 00:24:03] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 69
+[08-Apr-2016 00:24:46] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 69
+[08-Apr-2016 00:25:14] PHP Fatal error:  Call to a member function format() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 70
+[08-Apr-2016 12:19:14] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-payment-list-view.php on line 91
+[08-Apr-2016 12:23:09] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:24:12] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:24:42] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:21] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:26] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:26] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:26] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:26] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:26] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:26] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:26] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:27] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:27] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:27] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:27] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:27] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:27] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:27] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:27] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:28] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:33] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:26:40] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:27:31] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:27:33] PHP Fatal error:  Class 'NumberFormatter' not found in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 209
+[08-Apr-2016 12:58:32] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 211
+[08-Apr-2016 13:00:34] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 211
+[08-Apr-2016 13:01:19] PHP Fatal error:  Call to undefined method CI_Loader::convert_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 211
+[08-Apr-2016 13:01:48] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 211
+[08-Apr-2016 13:12:34] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 211
+[08-Apr-2016 13:13:12] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 211
+[08-Apr-2016 13:13:49] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 211
+[08-Apr-2016 13:14:15] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 211
+[08-Apr-2016 13:14:40] PHP Fatal error:  Call to undefined method CI_Loader::convert_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 241
+[08-Apr-2016 13:14:42] PHP Fatal error:  Call to undefined method CI_Loader::convert_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 241
+[08-Apr-2016 13:15:55] PHP Fatal error:  Call to undefined method CI_Loader::convert_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 242
+[08-Apr-2016 13:15:57] PHP Fatal error:  Call to undefined method CI_Loader::convert_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 242
+[08-Apr-2016 13:16:49] PHP Fatal error:  Call to undefined method CI_Loader::convert_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 242
+[08-Apr-2016 13:44:22] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 198
+[08-Apr-2016 13:46:31] PHP Fatal error:  Uncaught exception 'Exception' with message 'Number is out of range' in /home4/shivamdh/public_html/satellite_tv/application/libraries/Numbertowords.php:9
+Stack trace:
+#0 /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php(201): Numbertowords->convert_number(1234567890)
+#1 /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/report.php(16): include('/home4/shivamdh...')
+#2 /home4/shivamdh/public_html/satellite_tv/system/core/Loader.php(834): include('/home4/shivamdh...')
+#3 /home4/shivamdh/public_html/satellite_tv/system/core/Loader.php(420): CI_Loader->_ci_load(Array)
+#4 /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php(319): CI_Loader->view('maincontents/pd...', Array)
+#5 /home4/shivamdh/public_html/satellite_tv/system/core/CodeIgniter.php(360): Manage_list->payment_print('1')
+#6 /home4/shivamdh/public_html/satellite_tv/index.php(202): require_once('/home4/shivamdh...')
+#7 {main}
+  thrown in /home4/shivamdh/public_html/satellite_tv/application/libraries/Numbertowords.php on line 9
+[08-Apr-2016 13:47:57] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 201
+[08-Apr-2016 13:49:46] PHP Fatal error:  Call to undefined method Manage_list::convert_number() in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 97
+[08-Apr-2016 13:49:49] PHP Fatal error:  Call to undefined method Manage_list::convert_number() in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 97
+[08-Apr-2016 13:51:47] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 200
+[08-Apr-2016 14:07:28] PHP Fatal error:  Call to undefined method CI_Loader::convert_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:08:11] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:13:44] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:14:22] PHP Fatal error:  Call to a member function convert_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 02:44:25] PHP Parse error:  syntax error, unexpected $end in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 187
+[08-Apr-2016 14:16:04] PHP Fatal error:  Call to undefined method CI_Loader::get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:16:06] PHP Fatal error:  Call to undefined method CI_Loader::get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:16:07] PHP Fatal error:  Call to undefined method CI_Loader::get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:16:07] PHP Fatal error:  Call to undefined method CI_Loader::get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:16:07] PHP Fatal error:  Call to undefined method CI_Loader::get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:16:07] PHP Fatal error:  Call to undefined method CI_Loader::get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:16:07] PHP Fatal error:  Call to undefined method CI_Loader::get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:16:07] PHP Fatal error:  Call to undefined method CI_Loader::get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 14:16:07] PHP Fatal error:  Call to undefined method CI_Loader::get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 199
+[08-Apr-2016 04:38:21] PHP Fatal error:  Cannot redeclare Manage_client::addons() in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_client.php on line 830
+[08-Apr-2016 04:38:23] PHP Fatal error:  Cannot redeclare Manage_client::addons() in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_client.php on line 830
+[08-Apr-2016 16:32:05] PHP Fatal error:  Call to a member function get_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 222
+[08-Apr-2016 16:34:48] PHP Fatal error:  Call to a member function get_number() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 222
+[08-Apr-2016 16:35:07] PHP Fatal error:  Call to undefined function  get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 224
+[08-Apr-2016 16:40:22] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 240
+[08-Apr-2016 16:40:25] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 240
+[08-Apr-2016 16:42:37] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 240
+[08-Apr-2016 05:13:18] PHP Parse error:  syntax error, unexpected $end in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 195
+[08-Apr-2016 16:44:50] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 240
+[08-Apr-2016 16:53:07] PHP Fatal error:  Call to undefined function  get_number() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 224
+[08-Apr-2016 05:41:25] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_client.php on line 324
+[08-Apr-2016 05:41:25] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_client.php on line 324
+[08-Apr-2016 05:55:07] PHP Parse error:  syntax error, unexpected $end in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_client.php on line 242
+[08-Apr-2016 18:21:39] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:21:42] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:10] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:13] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:13] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:13] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:13] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:13] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:13] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:13] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:13] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:14] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:39] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:45] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:46] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:46] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 18:22:46] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 86
+[08-Apr-2016 07:04:54] PHP Parse error:  syntax error, unexpected $end in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 54
+[08-Apr-2016 18:37:48] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 311
+[08-Apr-2016 07:15:54] PHP Fatal error:  Call to undefined function  distinct() in /home4/shivamdh/public_html/satellite_tv/application/models/common_model.php on line 154
+[08-Apr-2016 07:21:11] PHP Parse error:  syntax error, unexpected $end in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_client.php on line 204
+[10-Apr-2016 00:34:52] PHP Parse error:  syntax error, unexpected T_ECHO in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 153
+[11-Apr-2016 12:48:25] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 122880 bytes) in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/report.php on line 333
+[11-Apr-2016 12:48:42] PHP Parse error:  syntax error, unexpected $end in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/report.php on line 184
+[11-Apr-2016 12:54:45] PHP Fatal error:  Unsupported operand types in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_client.php on line 216
+[11-Apr-2016 18:09:15] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-report-package-mode-list-view.php on line 52
+[11-Apr-2016 18:09:28] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-report-package-mode-list-view.php on line 52
+[11-Apr-2016 18:09:49] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-report-package-mode-list-view.php on line 52
+[11-Apr-2016 18:10:06] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-report-package-mode-list-view.php on line 52
+[11-Apr-2016 18:10:13] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-report-package-mode-list-view.php on line 52
+[11-Apr-2016 18:50:12] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-report-package-mode-list-view.php on line 52
+[11-Apr-2016 18:55:00] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-report-package-duration-list-view.php on line 47
+[11-Apr-2016 18:57:11] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-report-addon-duration-list-view.php on line 46
+[11-Apr-2016 18:58:40] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-report-bill-details-list-view.php on line 52
+[11-Apr-2016 08:07:37] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/views/elements/header.php on line 32
+[11-Apr-2016 08:07:50] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/views/elements/header.php on line 32
+[11-Apr-2016 08:07:54] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/views/elements/header.php on line 32
+[11-Apr-2016 08:08:18] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/views/elements/header.php on line 32
+[11-Apr-2016 20:12:19] PHP Parse error:  syntax error, unexpected $end in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 245
+[11-Apr-2016 20:31:55] PHP Fatal error:  Call to a member function diff() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 134
+[11-Apr-2016 20:31:57] PHP Fatal error:  Call to a member function diff() on a non-object in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 134
+[11-Apr-2016 20:33:49] PHP Fatal error:  Call to undefined function  date_diff() in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-expiry-list-view.php on line 135
+[12-Apr-2016 11:31:10] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or '$' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/add-edit-addons-view.php on line 27
+[12-Apr-2016 00:08:54] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or '$' in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_client.php on line 5335
+[12-Apr-2016 00:09:21] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/shivamdh/public_html/satellite_tv/application/models/common_model.php on line 201
+[12-Apr-2016 00:09:21] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home4/shivamdh/public_html/satellite_tv/application/models/common_model.php on line 201
+[03-May-2016 14:20:37] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 146
+[03-May-2016 14:22:07] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 146
+[03-May-2016 14:26:56] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 147
+[03-May-2016 03:02:33] PHP Fatal error:  Cannot use [] for reading in /home4/shivamdh/public_html/satellite_tv/application/controllers/manage_list.php on line 152
+[03-May-2016 17:19:38] PHP Parse error:  syntax error, unexpected $end in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 620
+[03-May-2016 17:19:38] PHP Parse error:  syntax error, unexpected $end in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/pdf/examples/res/report.php on line 620
+[22-May-2016 00:24:02] PHP Parse error:  syntax error, unexpected '/' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-box-list-view.php on line 99
+[22-May-2016 00:24:56] PHP Parse error:  syntax error, unexpected '/' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-box-list-view.php on line 99
+[22-May-2016 00:25:35] PHP Parse error:  syntax error, unexpected '/' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-box-list-view.php on line 99
+[22-May-2016 00:25:49] PHP Parse error:  syntax error, unexpected '/' in /home4/shivamdh/public_html/satellite_tv/application/views/maincontents/manage-box-list-view.php on line 99
