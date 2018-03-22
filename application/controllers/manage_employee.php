@@ -15,7 +15,7 @@ class Manage_employee extends CI_Controller {
 	function index()
 	{
 		$table['name'] = 'user_login';
-		$conditions = array('published'=>1);
+		$conditions = array('published'=>1,'username !='=>'admin');
 		$data['rows'] = $this->common_model->find_data($table,'array','',$conditions);
 		
 		

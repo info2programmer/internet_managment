@@ -86,8 +86,8 @@
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">Payemt Status</label>
-                                            <input type="text" class="form-control" placeholder="" name="payment_done" value="<?php echo $rows[0]->payment_done ?>">
+                                            <label for="exampleInputEmail1">Payemt Submit</label>
+                                            <input type="text" class="form-control" placeholder="" name="payment_done" value="<?php if($rows[0]->payment_done==1) echo 'Yes' ; else echo 'No' ; ?>">
                                             <?php echo form_error('payment_done', '<div class="error">', '</div>'); ?>
                                         </div>
 

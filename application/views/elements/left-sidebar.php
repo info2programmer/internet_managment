@@ -60,10 +60,12 @@
                         <li>
                             <a class="" href="<?php echo base_url() ?>manage_client/" aria-expanded="false"><span class="hide-menu">Manage Client </span></a>                            
                         </li>
-                        <?php if($this->session->userdata('username') =='admin'){?>
+                       
                         <li>
                             <a class="" href="<?php echo base_url() ?>manage_expense/" aria-expanded="false"><span class="hide-menu">Manage Expense </span></a>                            
                         </li>
+
+                         <?php if($this->session->userdata('username') =='admin'){?>
 
                         <li class="active">
                             <a class="has-arrow " href="#" aria-expanded="true"><span class="hide-menu">Manage Reports</span></a>

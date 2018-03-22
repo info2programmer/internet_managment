@@ -57,7 +57,7 @@ class User extends CI_Controller {
 						}
 						else
 						{	
-							$this->session->set_flashdata('error_message','Invalid username or password! Please try again.');		
+							$this->session->set_flashdata('error_message','<span style="color:red;">Invalid username or password! Please try again.</span>');		
 							redirect(current_url());					
 						}	
 					}					

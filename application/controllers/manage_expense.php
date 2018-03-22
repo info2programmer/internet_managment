@@ -16,9 +16,14 @@ class manage_expense extends CI_Controller {
 	function index()
 	{		
 		$table['name']='expense';
-		$order_by[0] = array('field'=>'id','type'=>'desc'); 
-		$data['rows']=$this->common_model->find_data($table,'array','','','','','',$order_by);
-		//echo '<pre>';print_r($data['rows']);die;
+		$select = 'expense.*,user_login.emp_name';
+		$order_by[0] = array('field'=>'expense.id','type'=>'desc');
+		$join[0] = array('table'=>'user_login','field'=>'id','table_master'=>'expense','field_table_master'=>'expense_by','type'=>'inner'); 
+		$conditions = '';
+		if($this->session->userdata('username')!='admin'){
+			$conditions = array('expense_by'=>$this->session->userdata('user_id'));
+		}
+		$data['rows']=$this->common_model->find_data($table,'array','',$conditions,'',$join,'',$order_by);
 		
 		$data['head'] = $this->load->view('elements/head','',true);
 		$data['header'] = $this->load->view('elements/header','',true);
@@ -44,6 +49,8 @@ class manage_expense extends CI_Controller {
 						$postdata = array('expense_title'=> $this->input->post('expense_title'),
 										  'expense_amount'=> $this->input->post('expense_amount'),
 										  'note'=> $this->input->post('note'),
+										  'expense_date' => date('Y-m-d'),
+										  'expense_by' => $this->session->userdata('user_id')
 											);
 					   		
 						$success = $this->common_model->save_data($table,$postdata);						

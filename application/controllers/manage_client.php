@@ -25,6 +25,7 @@ class Manage_client extends CI_Controller {
 		//$join[2] = array('table'=>'box_details','field'=>'client_foreign_id','table_master'=>'client','field_table_master'=>'area_id','type'=>'inner');
 		$data['rows'] = $this->common_model->find_data($table,'array','',$conditions,$select,$join,'',$order_by);
 		//echo '<pre>';print_r($data['rows']);die;
+		// $data['package_name'] = 
 		
 		$data['head'] = $this->load->view('elements/head','',true);
 		$data['header'] = $this->load->view('elements/header','',true);
@@ -365,8 +366,9 @@ class Manage_client extends CI_Controller {
 		// $select = 'box_details.*';
 		
 		$conditions = array('c_id'=>$id);
-		
-		$data['rows'] = $this->common_model->find_data($table,'array','',$conditions);
+		$order_by[0] = array('field'=>'id','type'=>'desc');
+		$data['rows'] = $this->common_model->find_data($table,'array','',$conditions,'','','',$order_by);
+		// $data['rows'] = $this->common_model->find_data($table,'array','',$conditions,'','','',$order_by[0]);
 		
 		$table['name'] = 'client';
 		$conditions = array('id'=>$id);
@@ -741,7 +743,7 @@ $data['action'] = 'New';
 						{
 						
 						$this->session->set_flashdata('success_message','Package successfully re-assigned to client');
-						$r = base_url().'index.php/manage_client/box_details/'.$c_id;	
+						$r = base_url().'manage_client/box_details/'.$c_id;	
 						redirect($r);
 						}
 					
@@ -1095,8 +1097,28 @@ $data['action'] = 'New';
 		 
 		$this->common_model->insert_package($object_package_payment);
 
-		$this->session->set_flashdata('success_message','Client details successfully inserted');	
-		redirect(base_url().'manage_client');
+		$this->session->set_flashdata('success_message','Package successfully re-assigned to client');
+		$r = base_url().'manage_client/box_details/'.$client_id;	
+		redirect($r);
+		
+	}
+
+	// This Function For Due Clear
+	public function due_clear($payment_id,$client_id)
+	{
+		$payment_data=$this->common_model->get_payment_data($payment_id);
+		
+		$clear_data=array(
+			'collected_amount' => (float)$payment_data[0]['amount']
+		);
+
+		$this->common_model->clear_due_amount($payment_id,$clear_data);
+		// echo $this->db->last_query();
+		// die;
+
+		$this->session->set_flashdata('success_message','Due clear successfully');
+		$r = base_url().'manage_client/box_details/'.$client_id;	
+		redirect($r);
 		
 	}
 

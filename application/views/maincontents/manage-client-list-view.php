@@ -65,15 +65,16 @@ setInterval(function()
                                     <td><?php echo $row->phone; ?></td>
                                     <td>
                                     <?php 
-                                    
-									$q_boxs = $this->db->query("select a.pkg
-                                                               from package a
-                                                              JOIN box_details b ON a.id = b.box_no
-                                                              where client_foreign_id=$row->id")->result();
-									foreach($q_boxs as $q_box)
-									{
-										echo $q_box->pkg."<br>";	
-									}
+                                        $package_name=$this->common_model->get_current_package($row->id);
+                                        echo $package_name[0]['pkg_name'];
+									// $q_boxs = $this->db->query("select a.pkg
+                                    //                            from package a
+                                    //                           JOIN pkg_assign b ON a.id = b.box_no
+                                    //                           where client_foreign_id=$row->id")->result();
+									// foreach($q_boxs as $q_box)
+									// {
+									// 	echo $q_box->pkg."<br>";	
+									// }
 									?>
                                     </td>
                                     <?php $date = 'CURDATE()' ;

@@ -60,6 +60,9 @@ setInterval(function()
                 <th>GST Amount</th>
                 <th>Service Charge</th>
                 <th>Amount</th>
+                <th>Pay Amount</th>
+                <th>Due Amount</th>
+                <th>Paymnt Submit</th>
               </tr>
             </thead>
             <tbody>
@@ -75,6 +78,25 @@ setInterval(function()
                   <td><?php echo $row->tax_amount ?></td>
                   <td><?php echo $row->service_charge ?></td>
                   <td><?php echo $row->amount ?></td>
+                  <td><?php echo $row->collected_amount ?></td>
+                  <td>
+                    <?php
+                      $due_amount=(float)$row->amount-(float)$row->collected_amount;
+                      if($due_amount!=0){
+                        echo "<a onclick='return confirm(\"Are you sure ?\");' href='".base_url()."manage_client/due_clear/".$row->id."/".$row->c_id."' class='btn btn-danger btn-xs'>".$due_amount."</a>";
+                      }
+                      else{
+                        echo "<a href='javascript:void(0);' class='btn btn-success btn-xs'>Clear</a>";
+                      }
+                    ?>
+                  </td>
+                  <?php if($row->payment_done==1){?> 
+                    <td><h6><span class="label label-success">Yes</span></h6></td>
+                  <?php } else{?> 
+                    <td><h6><span class="label label-danger">No</span></h6></td>
+                  <?php } ?>
+                  
+                  
                  </tr> 
               <?php } ?>
             </tbody>

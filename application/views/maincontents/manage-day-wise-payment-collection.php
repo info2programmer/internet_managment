@@ -80,7 +80,7 @@
                                     <th>Amount</th>
                                     <th>Collected Amount</th>
                                     <th>Payment Date</th>
-                                    <th>Payemt Status</th>
+                                    <th>Payemt Submit</th>
                                     <th>Collected By</th>
                                     <th>Action</th>                            
                                 </tr>
@@ -103,7 +103,15 @@
                                     <td><?php echo $row->amount; ?></td>
                                     <td><?php echo $row->collected_amount; ?></td>
                                     <td><?php echo date_format(date_create($row->paydate), "d-m-Y"); ?></td>
-                                    <td><?php echo $row->payment_done; ?></td>
+                                    
+
+                                    <?php if($row->payment_done==1)  { ?> 
+                                            <td><span class="label label-success">Yes</span></td>
+                                        <?php } else {?> 
+                                                <td><span class="label label-danger">No</span></td>
+                                        <?php } ?>
+                                        
+
                                     <td><?php echo $row->emp_name; ?></td>
                                     <td>
                                     <div class="col-sm-2"><a href="<?php echo base_url();?>payment_collection/view/<?php echo $row->id; ?>" title="View"><i class="fa fa-eye"></i></a>

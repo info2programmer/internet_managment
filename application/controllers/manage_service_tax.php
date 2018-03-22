@@ -99,14 +99,45 @@ class Manage_service_tax extends CI_Controller {
 					}
 					else
 					{
-						$postdata = array(											
-											'tax'=>$this->input->post('tax')
-											);
+						$postdata = array('tax'=>$this->input->post('tax'));
 						
 						$table['name']='service_tax';			
 						$success = $this->common_model->save_data($table,$postdata, $id);						
 						if($success)
 						{	
+							
+							/********************Update package amount as per GST**********************/
+							$query = $this->db->query("Select * FROM `package`");
+							$result = $query->result();
+
+							foreach ($result as $key => $value) {
+
+								//`all_ch`, `service_tax`, `tax_amount`, `service_chrg`, `price`
+
+								$all_ch = $value->all_ch;
+						
+								$percentage = $this->input->post('tax');
+								$totalWidth = $all_ch;
+								$new_width = ($percentage / 100) * $totalWidth;
+
+
+								$tax_amount = $value->tax_amount;
+								$service_chrg = $value->service_chrg;
+								
+								$price = ($all_ch+$new_width+$service_chrg);
+								
+
+								$arrayPackage = array('service_tax' => $percentage,
+													   'tax_amount' => $new_width,
+													   'price'  => $price
+
+												 );
+								$table = 'package';
+								$this->db->where('id', $value->id);
+                                $this->db->update('package', $arrayPackage);
+
+							}
+							//die;
 							$this->session->set_flashdata('success_message','Service Tax successfully updated');	
 							redirect('manage_service_tax');
 						}

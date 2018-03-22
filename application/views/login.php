@@ -43,6 +43,7 @@
             <div class="card-block">
                 <form class="form-horizontal form-material" id="loginform" action="<?php echo base_url() ?>user" method="post">
                     <h3 class="box-title m-b-20">Sign In</h3>
+                    <?php echo $this->session->flashdata('error_message') ;?>
                     <div class="form-group ">
                         <div class="col-xs-12">
                             <input class="form-control" type="text"   placeholder="Username" name="username">

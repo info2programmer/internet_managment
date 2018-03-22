@@ -2,10 +2,10 @@
   <div class="container">
     <div class="row  page-titles">
       <div class="col-sm-12">
-        <h3 class="text-themecolor m-b-0 m-t-0"><?php echo $action; ?> Zone</h3>
+        <h3 class="text-themecolor m-b-0 m-t-0"><?php echo $action; ?> Client</h3>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="<?php echo base_url();?>index.php/user/dashboard">Satellite TV Systems</a></li>
-          <li class="breadcrumb-item"><a href="<?php echo base_url();?>index.php/manage_client">Manage Client</a></li>
+          <li class="breadcrumb-item"><a href="<?php echo base_url();?>user/dashboard">Home</a></li>
+          <li class="breadcrumb-item"><a href="<?php echo base_url();?>manage_client">Manage Client</a></li>
           <li class="breadcrumb-item active"><?php echo $action; ?> Client</li>
         </ol>
       </div>
@@ -153,7 +153,7 @@
                       </div>
                     </div> 
               <?php endif; ?>
-              <p align="center"><button type="submit" class="btn btn-success waves-effect waves-light m-r-10"><?php echo $action ?> Client</button></p>
+              <p align="left" style="margin-left:20px;"><button type="submit" class="btn btn-success waves-effect waves-light m-r-10"><?php echo $action ?> Client</button></p>
               <input type="hidden" name="slider1" value="1" />
               <?php echo form_close(); ?> </div>
           </div>

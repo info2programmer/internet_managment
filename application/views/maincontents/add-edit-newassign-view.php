@@ -50,8 +50,8 @@
 										<?php  ?>
                                             <div class="col-md-12">
                                           	<?php 
-												$js = 'class="form-control" id="pkg"';
-												echo form_dropdown('pkg',$pkg_list,$pkg,$js);
+												$js = 'class="form-control" id="pkg" required="required"';
+												echo form_dropdown('pkg',$pkg_list,'',$js);
 											?>
 											<?php echo form_error('pkg'); ?>       
                                             </div>
@@ -60,7 +60,7 @@
                                                 class="col-md-4 control-label">Package Mode</label>
 										<?php  ?>
                                             <div class="col-md-12">
-                                            <select name="pkg_mode1" class="form-control">
+                                            <select name="pkg_mode1" class="form-control" required="required">
                                                  <option value="" selected hidden>Choose Package Mode</option>
 												 <option value="Monthly">Monthly</option>
                                             </select> 
@@ -72,7 +72,7 @@
 										<?php  ?>
                                             <div class="col-md-12">
                                            <input type="date" class="form-control" id="datepicker-autoclose1"
-                                               placeholder="Enter Form Date" name="from_date" value="<?php echo date('m/d/Y',strtotime($from_date)); ?>">
+                                               placeholder="Enter Form Date" required="required" name="from_date" value="<?php echo date('m/d/Y',strtotime($from_date)); ?>">
                                            	
                                                                    <?php echo form_error('from_date'); ?>       
                                                                           </div>
@@ -85,8 +85,8 @@
 										</div>
 										<div class="form-group">
 											<label
-                                                class="col-md-4 control-label">Pay Amount</label>
-											<div class="col-md-12"><input type="number" id="txtpayamount" name="txtpayamount" class="form-control"></div>
+                                                class="col-md-4 control-label" >Pay Amount</label>
+											<div class="col-md-12"><input type="number" required="required" id="txtpayamount" name="txtpayamount" class="form-control"></div>
                                             <input type="hidden" name="txtClientHidden" value="<?php echo $client_id; ?>">
 										</div>
                                         <?php
@@ -105,7 +105,7 @@
                                             </div>
                                         </div> 
 										<?php } ?>
-											<p align="center"><button name="submit" type="submit" class="btn btn-success waves-effect waves-light"><?php echo $action; ?> Assign Package</button></p>	
+											<p align="left" style="margin-left:20px;"><button name="submit" type="submit" class="btn btn-success waves-effect waves-light"><?php echo $action; ?> Assign Package</button></p>	
                                                 <input type="hidden" name="slider1" value="1" />
 										
                                    <?php echo form_close(); ?>

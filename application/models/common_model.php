@@ -188,6 +188,31 @@ class Common_model extends CI_Model
 	{
 		$this->db->insert('pkg_payment', $object);
 	}
+
+	// This Function For Get Payment Data
+	public function get_payment_data($payment_id)
+	{
+		$this->db->where('id', $payment_id);
+		$query=$this->db->get('pkg_payment');
+		return $query->result_array();
+	}
+
+	// This Function For Clear Due Amount
+	public function clear_due_amount($payment_id,$object)
+	{
+		$this->db->where('id', $payment_id);
+		$this->db->update('pkg_payment', $object);
+		
+		
+	}
+
+	// Get client Current Package
+	public function get_current_package($client_id)
+	{
+		$this->db->where('c_id', $client_id);
+		$query=$this->db->get('pkg_assign');
+		return $query->result_array();
+	}
 	   
 	 
 }

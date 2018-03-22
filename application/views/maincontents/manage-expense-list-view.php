@@ -42,6 +42,9 @@ setInterval(function()
                                     <th width="11">SL NO.</th>
                                     <th width="20">Expense</th>
                                     <th width="84">Amount</th>
+                                    <th> Date </th>
+                                    <th> Expense By </th>
+                                    <th>Note</th>
                                     <?php if($this->session->userdata('username') =='admin') {?>
                                     <th width="43">Action</th>
                                     <?php } ?>                                    
@@ -54,6 +57,9 @@ setInterval(function()
                                     <td><?php echo $i++; ?></td>
                                     <td><?php echo $row->expense_title; ?></td>
                                     <td><?php echo $row->expense_amount; ?></td>
+                                    <td><?php echo date_format(date_create( $row->expense_date), "d-m-Y"); ?></td>
+                                    <td><?php echo $row->emp_name; ?></td>
+                                    <th><?php echo $row->note; ?></th>
                                     
                                 <?php if($this->session->userdata('username') =='admin') {?>
                                 <td>

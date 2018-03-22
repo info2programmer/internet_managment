@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="card card-block">
           <h3 class="box-title m-b-0"><?php echo $action ?> Package</h3>
           <?php
@@ -56,9 +56,9 @@
                   <textarea class="form-control" placeholder="Enter Description" name="desc"><?php if($action == 'Edit'){echo $desc;} else {echo set_value('desc');} ?></textarea>
                   <span style="color:red;"><?php echo form_error('desc'); ?> </span> </div>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Cost of All Channel</label>
+                  <label for="exampleInputEmail1">Cost of Package</label>
                  
-                  <input type="text" class="form-control" placeholder="Enter Cost of All Channel" name="all_ch" id="all_ch" value="<?php if($action == 'Edit'){echo $all_ch;} else {echo set_value('all_ch');} ?>">
+                  <input type="text" class="form-control" placeholder="Enter Cost of Package" name="all_ch" id="all_ch" value="<?php if($action == 'Edit'){echo $all_ch;} else {echo set_value('all_ch');} ?>">
                   <span style="color:red;"><?php echo form_error('all_ch'); ?></span> </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1"><span style="border: 1px solid black;padding-left: 2px;padding-right: 5px;"><?php echo $service_tax; ?></span> % GST Amount</label>

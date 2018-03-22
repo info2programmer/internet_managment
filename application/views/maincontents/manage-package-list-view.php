@@ -43,9 +43,9 @@ setInterval(function()
                                     <th>Package Name</th>
                                     <th>Package Mode</th>
                                     <th>Description</th>
-                                    <th>Cost of all channels</th>
-                                    <th>Service Tax</th>
-                                    <th>Tax Amount</th>
+                                    <th>Cost of Package</th>
+                                    <th>GST</th>
+                                    <th>GST Amount</th>
                                     <th>Service Charge</th>
                                     <th>Total Price</th>
                                     <?php if($this->session->userdata('username') =='admin') {?>
