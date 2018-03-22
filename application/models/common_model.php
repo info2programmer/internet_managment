@@ -182,6 +182,12 @@ class Common_model extends CI_Model
 		$query=$this->db->get('package');
 		return $query->result_array();
 	}
+
+	// This Function For Insert Package 
+	public function insert_package($object)
+	{
+		$this->db->insert('pkg_payment', $object);
+	}
 	   
 	 
 }

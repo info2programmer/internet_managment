@@ -1044,9 +1044,59 @@ $data['action'] = 'New';
 
 		// Create To Date Here
 		$validity=29;
-		$package_fromdate= $this->input->post('txtFromDate');
-		$to_date = date("Y-m-d", strtotime(date("Y-m-d", strtotime($package_fromdate)) . " + " . $validity . " day"));
+		// $package_fromdate= $form_date;
+		$to_date = date("Y-m-d", strtotime(date("Y-m-d", strtotime($form_date)) . " + " . $validity . " day"));
 
+		// Update Package Assign Table
+		$object_package_assign=array(
+			'pkg_name' => $package_name,
+			'from_date' => $form_date,
+			'to_date' => $to_date,
+			'pkg_mode' => $package_mode
+		);
+
+		$this->common_model->update_package($client_id,$object_package_assign);
+		
+		// Get All Package Data
+		$package_data = $this->common_model->get_package_data($package_name);
+
+		$date1=date_create($form_date);
+		$inv_month = date_format($date1,"M");
+		$inv_year = date_format($date1,"Y");
+
+		// var_dump($data['assign_data_for_payment']);
+		// die;
+		
+		
+		//$last_id = $this->db->query("select id from pkg_payment order by id desc limit 1")->result_array();
+		//$insert_id = $last_id[0]['id'] + 1;
+		$invoice_number = $inv_month."/".$inv_year."/".$client_id;
+
+		// Update Payment Table Data
+		$object_package_payment=array(
+			'c_id' => $client_id,
+			'box_no' => '',
+			'pkg_name' => $package_name,
+			'from_date' => $form_date,
+			'to_date' => $to_date,
+			'cost' => $package_data[0]['all_ch'],
+			'tax' => $package_data[0]['service_tax'],
+			'tax_amount' => $package_data[0]['tax_amount'],
+			'service_charge' => $package_data[0]['service_chrg'],
+			'discount' => '0.00',
+			'amount' => $package_data[0]['price'],
+			'collected_amount' => $pay_amount,
+			'approval' => 1,
+			'paydate' => date('Y-m-d'),
+			'pkg_duration' => $package_mode,
+			'invoice_no' => $invoice_number,
+			'collected_by' => $this->session->userdata('user_id')
+		);
+		 
+		$this->common_model->insert_package($object_package_payment);
+
+		$this->session->set_flashdata('success_message','Client details successfully inserted');	
+		redirect(base_url().'manage_client');
 		
 	}
 
