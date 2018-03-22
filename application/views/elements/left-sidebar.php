@@ -76,7 +76,7 @@
 
 
                         <li>
-                            <a class="" href="<?php echo base_url() ?>manage_payment_collection/" aria-expanded="false"><span class="hide-menu">Payment Collection </span></a>                            
+                            <a class="" href="<?php echo base_url() ?>payment_collection/" aria-expanded="false"><span class="hide-menu">Payment Collection </span></a>                            
                         </li>
 
 

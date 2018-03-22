@@ -2,7 +2,7 @@
 
 
 
-class Manage_report extends CI_Controller {
+class Payment_collection extends CI_Controller {
 
 	function __construct()
 

@@ -782,67 +782,7 @@ $data['action'] = 'New';
 		}
 	}
 
-	public function payment_collection()
-	{
-		// Get data here
-		$pkg=$this-><?php if ( !dfine d('BASEPATH')) exit('No direct script access allowed');
-class Manage_client extends CI_Cnroller {
-to
-	fuction __construt()
-	{
-		paren:__constru:tc
-		parent::__construc	arent::__construct);
-		$is_admi_ogged_in = $lnthis->load->model(array('common_model'));
-		date_dfault_timezone_set('AsiaClcutta');
-	}
-a/			parent::__construct();
-		$is_admin_logged_in = $tparent::__construct();
-$is_admin_logge = $this->se      {
-           redirect(base_url());
-        }
-		$this->load->model(ar     {
-     
-		if( $is_admin_logged_in != 1)
-        {
-           redirect(base_url());
-        }
-		$this->load->model(arssion->userdata('is_admin_logged_in');	
-    }
-############################
-	############################################################table['name'] = 'client';
-		$$rder_by[o0] = array('field'=>'client.id','type'=>'desc');
-		$jin[0] = aorray'table'=>'zone','field'=>'id','table_master'=>'client','field_table_master'=>'zone_id','type'=>'inner');
-		$jin[1] =o array('tablselect = 'client.*,zone.zone_name,area.area_name';
-		##nditions = array('client.published'=>1);
-		//$join= array('table'=>'box_detailsfield'=>'client_foreign_id','tabl,'		$data['action'] = 'Add';
-		$data['footer'] = $this->load->view('elements/footer','',true);
-		$data['m>post('		else if>input-pkg_mode') == 'Quarterly')
-						{ $vadit  89; 
-		else if($this->input->post('pkgde')_m						else if($this->input->post('pkg_mode')				else if($this->input->post('pkg_mode') == 'Half Yearly')
-						{ $validity = 17					else if($this->input->post('pkg_mode') == 'Annually')
-		$validity = 364; }
-						
-					
-						
-						$to_d	ate = date("Y-m-d", strtotime(date("Y-m-d", strtotime($from_date)) . " + " . $validity . " day"));
-					
-										
-							$		$	$field	s = array(
-					'c_	id' => $data['id']
-,
-			'box		_		'box_	'b	ox_n,
-						'pkg_names->input->pthi			'pkg_name' => $this->input->p	'active_stpkg_name' => $this->inpatus' => 1kg'			'active_status' => 1		'active_statu	s' = 1,
-						'paymen			'payment_=> 						'payment_status' => 1,
-						'frostats' => 1,u
-					'f	r		'fr	'from	_date' => $from_date,
-to_daate			'to_date' => $to_da		'to_date' => $t	o_date,
-					'pkg_mo	de' => $this->input->post('pkg_mode'),
-					'disco	unt' => $hs->initput->post('discount')
-					);
-						/	/ech '<pre>';p		//echo '<pre>';p	//echo '<	pe'			
-				ontent']=$this->load->view('maincontents/manage-box-list-view',$data,true);
-		$this->load->view('layout_after_login',$data);
-	}
+	
 	
 	function box_delete($id,$c_id,$box_no)
 	{
@@ -1017,7 +957,7 @@ to_daate			'to_date' => $to_da		'to_date' => $t	o_date,
 	
 	public function new_assign($c_id)
 	{
-$data['action'] = 'New';
+		$data['action'] = 'New';
 		$table['name'] = 'client';
 		$select = 'client.id,client.client_name,client.client_id,box_details.box_no';
 		$conditions = array('box_details.client_foreign_id'=>$c_id);
@@ -1095,104 +1035,4 @@ $data['action'] = 'New';
 		$this->load->view('layout_after_login',$data);
 	}
 	
-	public function renew_assign($c_id)
-	{
-		$data['action'] = 'Renew';
-		$table['name'] = 'client';
-		$conditions=array('id' => $c_id);
-		$data['bread_crumbs'] = $this->common_model->find_data($table,'row','',$conditions);
-		$data['id'] = $data['bread_crumbs']->id;
-		$data['client_name'] = $data['bread_crumbs']->client_name;
-		$data['client_id'] = $data['bread_crumbs']->client_id;
-		// $data['box_no'] = $data['bread_crumbs']->box_no;
-		
-		$data['c_id_edit'] = $data['bread_crumbs']->id;
-		
-		
-		
-		$table['name']= 'package';
-		$select = 'pkg';
-		 
-		$list = array('key'=>'pkg','value'=>'pkg','empty_name'=>' Package');
-		$data['pkg_list'] = $this->common_model->find_data($table,'list',$list,'',$select);
-		
-		
-		$table['name'] = 'pkg_assign';
-		$conditions = array('c_id'=>$c_id);
-		$data['row'] = $this->common_model->find_data($table,'row','',$conditions);
-		$assign_id = $data['row']->id;
-		//echo '<pre>';print_r($data['row']);die;
-		
-		/*if($this->input->post('slider1') == 1)
-		{
-			if($this->form_validate_assign() == FALSE)
-			{
-				$data['error_message']=validation_errors();
-			}
-			else
-			{
-				
-						$table['name'] = 'pkg_assign';
-						$conditions = array('c_id'=>$this->input->post('c_id'));
-						$data['pkg_assign_result'] = $this->common_model->find_data($table,'row','',$conditions);
-						
-						
-						
-						$pkg_assign_id = $data['pkg_assign_result']->id;
-						$from_date = date_create($this->input->post('from_date'));
-						$from_date = date_format($from_date,"Y-m-d");
-						$to_date = date_create($this->input->post('to_date'));
-						$to_date = date_format($to_date,"Y-m-d");
-						
-						$code = $data['pkg_assign_result']->track_code;
-						
-						$fields = array(
-						'c_id' => $this->input->post('c_id'),
-						'box_no' => $this->input->post('box_no'),
-						'pkg_name' => $this->input->post('pkg')."**".$this->input->post('pkg_mode'),
-						'activ_status' => 1,
-						'renew_status' => 1,
-						'from_date' => $from_date,
-						'to_date' => $to_date,
-						'track_code' => $code,
-						'pkg_duration' => $this->input->post('pkg_mode'),
-						'status' => 1
-						);
-						
-						$table['name'] = 'pkg_assign';
-						$data = $this->common_model->save_data($table,$fields,$pkg_assign_id);
-						if($data)
-						{
-						
-						$this->session->set_flashdata('success_message','Client package Image successfully updated');	
-						redirect('manage_client');
-						}
-					
-					}
-				
-			
-		}*/
-		
-		if($this->input->post('slider1') == 1)
-		{
-			if($this->form_validate_assign() == FALSE)
-			{
-				$data['error_message']=validation_errors();
-			}
-			else
-			{		
-						$from_date = date_create($this->input->post('from_date'));
-						$from_date = date_format($from_date,"Y-m-d");
-						
-						if($this->input->post('pkg_mode') == 'Monthly')
-		$data['maincontent']=$this->load->view('maincontents/manage-client-list-view',$data,true);
-		$this->load->view('layout_after_login',$data);
-	}
-		$conditions = array('zone_id'=>$zone);
-		$order_by[0] = array('field'=>'area_name','type'=>'asc');
-		$arrArea = $this->common_model->find_data($table,'list',$list,$conditions,$select,'','',$order_by);
-		
-		$state = $this->input->post('state');
-		
-		$js = 'class="form-control" id="area"';
-			if($action == 'Add')
+	

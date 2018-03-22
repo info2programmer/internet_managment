@@ -14,7 +14,8 @@ class Manage_zone extends CI_Controller {
 	}
 	################################################################
 	function index()
-	{		
+	{	
+		
 		$table['name']='zone';
 		$order_by[0] = array('field'=>'id','type'=>'desc'); 
 		$data['rows']=$this->common_model->find_data($table,'array','','','','','',$order_by);
